@@ -8,7 +8,10 @@ function App() {
   return (
     <div className='app'>
         <Sidebar />
-        <Outlet />
+        <div className='hero'>
+          <Outlet />
+        </div>
+       
     </div>
   )
 }

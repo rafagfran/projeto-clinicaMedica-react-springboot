@@ -2,3 +2,9 @@
     display: flex;
     height: 100vh;
 }
+
+.hero{
+    flex: 1;
+    padding: 30px;
+    overflow-y: auto;
+}
