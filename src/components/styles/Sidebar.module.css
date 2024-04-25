@@ -1,0 +1,22 @@
+.container{
+    background: rgb(0, 0, 0);
+    height: 100%;
+    width: 200px;
+    padding: 30px 10px;
+}
+.logo{
+    margin-bottom: 50px;
+}
+
+span{
+    color: rgba(255, 255, 255, 0.432);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.links{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
