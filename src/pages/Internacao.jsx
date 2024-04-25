@@ -6,7 +6,7 @@ import style from './styles/Internacao.module.css'
 const Internacao = () => {
   return (
     <div className={style.internacao}>
-      <h1 className={style.title}>Internação</h1>
+      <h1 className={style.title}>FORMULARIO DE INTERNAÇÃO</h1>
 
       <div className={style.form_container}>
         <div id={style.paciente_info} className={style.form}>
