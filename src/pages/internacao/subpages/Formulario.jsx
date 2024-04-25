@@ -1,9 +1,9 @@
 import React from 'react'
-import InputComponent from '../components/common/Inputs.jsx'
+import InputComponent from '../../../components/common/Inputs.jsx'
 
-import style from './styles/Internacao.module.css'
+import style from '../styles/Internacao.module.css'
 
-const Internacao = () => {
+const Formulario = () => {
   return (
     <div className={style.internacao}>
       <h1 className={style.title}>FORMULARIO DE INTERNAÇÃO</h1>
@@ -61,4 +61,4 @@ const Internacao = () => {
   )
 }
 
-export default Internacao
+export default Formulario

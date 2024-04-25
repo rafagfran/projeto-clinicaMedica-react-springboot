@@ -1,7 +1,7 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 import './App.css'
-import Sidebar from './components/Sidebar'
+import Sidebar from './layout/sidebar/Index.jsx'
 
 function App() {
 

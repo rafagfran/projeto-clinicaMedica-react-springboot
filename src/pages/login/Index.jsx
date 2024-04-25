@@ -19,7 +19,12 @@ const Login = () => {
 
         try {
             // await axios.post(url,  dadosDoUsuario);
-            navigate('/home');
+            if (username === 'admin' && password === 'admin') {
+                navigate('/home');
+            }
+            else {
+                alert('Usuário ou senha inválidos');
+            }
             
         } catch (erro) {
             console.error('Erro ao fazer login:', erro);

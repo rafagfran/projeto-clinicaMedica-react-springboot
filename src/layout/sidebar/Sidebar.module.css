@@ -1,0 +1,46 @@
+.container{
+    background: rgb(78, 76, 196);
+    height: 100%;
+    width: 200px;
+    padding: 30px 10px;
+}
+.logo{
+    margin-bottom: 50px;
+}
+
+span{
+    color: rgba(255, 255, 255, 0.171);
+    font-size: 1rem;
+
+}
+
+.links{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    gap: 20px;
+}
+
+.navContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.subLinks{
+    font-size: .8rem;
+    color: rgba(255, 255, 255, 0.61);
+    margin-left: 30px;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+.mainLinks{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
