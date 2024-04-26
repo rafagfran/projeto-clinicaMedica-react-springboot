@@ -2,7 +2,6 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 
 import FormInternacao from '../subpages/Formulario.jsx'
-import MainInternacao from '../Index.jsx'
 
 const Index = () => {
   return (
