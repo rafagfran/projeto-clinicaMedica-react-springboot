@@ -13,13 +13,10 @@ body{
 
 a{
   text-decoration: none;
-  transition: .5s;
+  transition: .3s;
   color: #e3e1f1;
 }
 
-a:hover{
-  color: #f00;
-}
 
 li{
   list-style: none;

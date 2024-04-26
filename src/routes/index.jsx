@@ -5,8 +5,8 @@ import App from '../App.jsx'
 import Home from '../pages/home/Index.jsx'
 import RoutesAgendamento from '../pages/agendamento/routes/Index.jsx'
 import RoutesInternacao from '../pages/internacao/routes/Index.jsx'
-import Medico from '../pages/medicos/Index.jsx'
-import Paciente from '../pages/pacientes/Index.jsx'
+import RoutesMedico from '../pages/medicos/routes/Index.jsx'
+import RoutesPaciente from '../pages/pacientes/routes/Index.jsx'
 
 const index = () => {
   return (
@@ -15,8 +15,8 @@ const index = () => {
             <Route path="/" element={<Home />}/>
             <Route path="/agendamento/*" element={<RoutesAgendamento/>}/>
             <Route path="/internacao/*" element={<RoutesInternacao />}/>
-            <Route path="/medico/*" element={<Medico/>}/>
-            <Route path="/paciente/*" element={<Paciente />}/>
+            <Route path="/medico/*" element={<RoutesMedico/>}/>
+            <Route path="/paciente/*" element={<RoutesPaciente />}/>
         </Route>
         
     </Routes>
